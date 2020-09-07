@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+h2 {
+  font-size: 1.1rem; }
+
+form {
+  display: inline-block; }
+
+form:last-child button {
+  background-color: #f02828;
+  color: white;
+  border-color: red; }
+
+form:last-child button:hover {
+  background-color: #b41e1e;
+  color: white;
+  border-color: red; }
+
+/*# sourceMappingURL=style.css.map */

@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+h2 {
+  font-size: 1.1rem;
+}
+
+form {
+  display: inline-block;
+}
+
+form:last-child button {
+  background-color: rgb(240,40,40);
+  color: white;
+  border-color: red;
+}
+
+form:last-child button:hover {
+  background-color: rgb(180,30,30);
+  color: white;
+  border-color: red;
+}
