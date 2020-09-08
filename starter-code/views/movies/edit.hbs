@@ -13,7 +13,7 @@
   <input type="text" name="plot" id="plot" value="{{movie.plot}}"><br>
   <br>
   <br>
-  <select name="cast" id="cast" multiple>
+  <select name="cast" id="cast" size="10" multiple>
     {{#each cast}}
       <option value="{{_id}}" {{#if selected}}selected{{/if}}>{{name}}</option>
     {{/each}}
