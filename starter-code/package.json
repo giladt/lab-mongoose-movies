@@ -7,6 +7,9 @@
     "dev": "DEBUG=starter-code:* nodemon ./bin/www",
     "dev-windows": "nodemon ./bin/www"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
